@@ -4,13 +4,13 @@ Documentation on how to use this:
 
 
 
-## Admin interface for creating / editing users with a gui : 
+### Admin interface for creating / editing users with a gui : 
 https://knk.magnum.wtf/admin/login/?next=/admin/
 Username: PussySlayer69
 Password: kps
 
 
-## Create new user
+### Create new user
 
 POST https://knk.magnum.wtf/api/register/
 
@@ -21,7 +21,7 @@ params = {
 }
 
 
-## Login with an existing user
+### Login with an existing user
 
 POST https://knk.magnum.wtf/api/login
 
@@ -32,7 +32,7 @@ params = {
 
 _If your login details are correct, you will receive an authentication token. Save this. You will need this later to check whether the user is already logged in._
 
-## Check whether a user is logged in
+### Check whether a user is logged in
 
 
 POST https://knk.magnum.wtf/api/authorize
@@ -41,7 +41,7 @@ params = {
   "token":-----,
 }
 
-## Logout a user
+### Logout a user
 
 POST https://knk.magnum.wtf/api/logout
 
