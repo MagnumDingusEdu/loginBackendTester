@@ -1,10 +1,11 @@
-# loginBackendTester
+# A test backend for making login pages in flutter
 
 Documentation on how to use this:
 
 
 
-## Admin interface for creating / editing users with a gui : https://knk.magnum.wtf/admin/login/?next=/admin/
+## Admin interface for creating / editing users with a gui : 
+https://knk.magnum.wtf/admin/login/?next=/admin/
 Username: PussySlayer69
 Password: kps
 
